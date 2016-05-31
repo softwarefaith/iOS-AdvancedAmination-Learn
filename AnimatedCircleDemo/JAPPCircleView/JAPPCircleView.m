@@ -33,6 +33,20 @@
     return self;
 }
 
+-(instancetype)initWithCoder:(NSCoder *)aDecoder{
+    
+    if (self = [super initWithCoder:aDecoder]) {
+        _appCircleLayer = [JAPPCircleLayer layer];
+        _appCircleLayer.frame = CGRectMake(0, 0, CGRectGetWidth(self.frame), CGRectGetHeight(self.frame));
+        _appCircleLayer.contentsScale = [UIScreen mainScreen].scale;
+        [self.layer addSublayer:_appCircleLayer];
+    }
+    
+    return self;
+}
+
+
+
 -(void)setProgress:(CGFloat)progress{
     _appCircleLayer.progress = progress;
 }
