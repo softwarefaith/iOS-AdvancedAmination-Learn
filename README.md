@@ -1,3 +1,6 @@
 # iOS-AdvancedAmination-Learn
 
-#本demo 参考网上高级动画探究，自己手动敲一遍实现
+##动画学习资料
+1.具体参考书籍A GUIDE TO IOS ANIMATION 2.0
+
+2.<https://zsisme.gitbooks.io/ios-/content/>
