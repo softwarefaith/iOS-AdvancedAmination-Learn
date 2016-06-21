@@ -9,4 +9,5 @@
 
 ##动画
 
-1.JAPPSiderMenuDemo 思想 为辅助视图
+1.JAPPSiderMenuDemo 思想 为辅助视图<br/>
+<http://holko.pl/2014/06/26/recreating-skypes-action-sheet-animation/>
