@@ -10,7 +10,14 @@
 
 @interface JCuteView : UIView
 
-@property(nonatomic,strong) UIView *containerView;
+@property (nonatomic,strong) UIView *containerView;
+
+@property (nonatomic,strong) UIView *frontView;
+
+/**
+ *  @brief //气泡粘性系数，越大可以拉得越长
+ */
+@property (nonatomic,assign)CGFloat viscosity;
 
 
 -(instancetype)initWithPoint:(CGPoint)point
