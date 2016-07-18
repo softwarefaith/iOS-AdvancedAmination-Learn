@@ -81,6 +81,7 @@
     }
     return self;
 }
+
 -(void)drawRect{
     
     x1 = backView.center.x;
