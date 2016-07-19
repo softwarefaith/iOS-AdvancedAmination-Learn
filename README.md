@@ -5,7 +5,7 @@
 
 ##Demo List
 
-1.JCuteView
+####1.JCuteView
 
 思想：
 计算出粘性边界关键点的通用坐标
@@ -14,8 +14,13 @@
 ![JCuteView](JCuteView.png)
 
 
-2.JAppSplashAnimtion
+####2.JAppSplashAnimtion
 仿 twitter首页
+
+####3.JAppLoverHeart
+类似YY心形
+心形画法的参考
+![Heart](heart.png)
 
 
 
