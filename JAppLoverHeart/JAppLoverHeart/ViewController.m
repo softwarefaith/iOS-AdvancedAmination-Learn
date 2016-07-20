@@ -18,9 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    JLoveHeartView *love = [[JLoveHeartView alloc] initWithFrame:CGRectMake(100, 100, 80, 80)];
+    JLoveHeartView *love = [[JLoveHeartView alloc] initWithFrame:CGRectMake(100, 100, 30, 30)];
     
     [self.view addSubview:love];
+    
+    [love animateInView:self.view];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -14,4 +14,8 @@
 
 @interface JLoveHeartView : UIView
 
+
+- (void)animateInView:(UIView *)view;
+
+
 @end
